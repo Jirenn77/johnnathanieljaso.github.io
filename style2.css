@@ -1,0 +1,432 @@
+*{
+   margin:0;
+   padding:0;
+}
+header{
+   position: absolute;
+   width: 100%;
+   top: -40px;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transition: 0.5s ease;
+   }
+   .logo img{
+       max-width: 140px;
+       height: auto;
+   }
+   .navmenu{
+   display: flex;
+   }
+   .navmenu a{
+   padding: 10px 20px;
+   color: #292929;
+   text-transform: capitalize;
+   font-weight: 500;
+   transition: all .42s ease;
+   }
+   .navmenu a:hover{
+       color: #CC3333;
+   }
+   .nav-icon{
+       display: flex;
+       align-items: center;
+   }
+   .nav-icon .btn{
+       display: inline-block;
+       text-transform: capitalize;
+       font-size: 16px;
+       font-weight: 500;
+       border: 2px solid #CC3333;
+       padding: 10px 30px;
+       background-color: #CC3333;
+       border-radius: 30px;
+       color: #fff;
+       letter-spacing: 1px;
+       margin-right: 15px;
+       transition: all .42 ease;
+   }	
+   .nav-icon .btn:hover{
+       transform: scale(1.1);
+   }
+   .menu-icon{
+       font-size: 35px;
+       color: #292929;
+       z-index: 10001;
+       cursor: pointer;
+       display: none;
+   }
+   section{
+       padding: 60px 12%; 
+   }
+   .home{
+       width: 100%;
+       height: 100vh;
+       background-position: center;
+       background-size: cover;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       align-items: center;
+       gap: 2rem;
+   }
+   .home-img img{
+       max-width: 100;
+       width: 100;
+       height: auto;
+       
+   }
+   .home-text h4{
+       color: #CC3333;
+       font-size: 20px;
+       font-weight: 600;
+       letter-spacing: -1px;
+       font-family: 'Lobster', cursive;
+   } 
+   .home-text h1{
+       font-size: 50px;
+       color: #292929;
+       font-weight: 700;
+       line-height: 1.2;
+       margin: 23px 0;
+   }
+   .home-text p{
+       color: #666;
+       font-size: 15px;
+       line-height: 25px;
+       font-weight: 400;
+       margin-bottom: 40px;
+   }
+   .main-btn{
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .main-btn .btn1{
+       display: inline-block;
+       color: #fff;
+       font-size: 15;
+       text-transform: capitalize;
+       background-color: #CC3333;
+       padding: 12px 30px;
+       transition: all 42s ease;
+   }
+   .main-btn .btn:hover{
+       background-color: #292929;
+   }
+   .btn2{
+       font-size: 15px;
+       font-weight: 500;
+       color: #292929;
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       margin-left: 30px;
+   }
+   .btn2 span i{
+       height: 50px;
+       width: 50px;
+       background: #CC3333;
+       color: #fff;
+       font-size: 40px;
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 50%;
+       margin-right: 15px;
+       transition: all 42s ease;
+   }
+   .btn2 span i:hover{
+       transform: translateY(-5px);
+   }
+   
+   @media(max-width:945px){
+       header{
+           padding: 20px 3%;
+           transition: .3s;
+       }
+   }
+   @media(max-width:1140px){
+       .home{
+           grid-template-columns: 1fr;
+           height: 100%;
+   
+       }
+   }
+   body{
+       background-image: url("file:///C:/Users/user/Desktop/New%20folder/bfbplace.jpg");
+       
+   }
+   nav {
+       background-color: #333;
+       color: white;
+     }
+     
+     nav ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       text-align: left;
+     }
+     
+     nav li {
+       float: left;
+       text-align: left;
+     }
+     
+     nav a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+     }
+     
+     nav a:hover {
+       background-color: #111;
+     }
+   
+   h1 {
+     text-align: center;
+   }
+   
+   h2 {
+     font-size: 1.5em;
+     margin-top: 20px;
+   }
+   
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+   
+   li {
+     margin-bottom: 10px;
+   }
+   
+   section {
+     border-bottom: 1px solid #ccc;
+     padding-bottom: 20px;
+   }
+.home{
+   width: 100%;
+   height: 100vh;
+   background-image: url(banner.jpg);
+   background-position: center;
+   background-size: cover;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   gap: 2rem;
+}
+.home-img img{
+   max-width: 100;
+   width: 100;
+   height: auto;
+   
+}
+.home-text h4{
+   color: #CC3333;
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: -1px;
+   font-family: 'Lobster', cursive;
+} 
+.home-text h1{
+   font-size: 50px;
+   color: #292929;
+   font-weight: 700;
+   line-height: 1.2;
+   margin: 23px 0;
+}
+.home-text p{
+   color: #666;
+   font-size: 15px;
+   line-height: 25px;
+   font-weight: 400;
+   margin-bottom: 40px;
+}
+.main-btn{
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}
+.main-btn .btn1{
+   display: inline-block;
+   color: #fff;
+   font-size: 15;
+   text-transform: capitalize;
+   background-color: #CC3333;
+   padding: 12px 30px;
+   transition: all 42s ease;
+}
+.main-btn .btn:hover{
+   background-color: #292929;
+}
+.btn2{
+   font-size: 15px;
+   font-weight: 500;
+   color: #292929;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 30px;
+}
+.btn2 span i{
+   height: 50px;
+   width: 50px;
+   background: #CC3333;
+   color: #fff;
+   font-size: 40px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin-right: 15px;
+   transition: all 42s ease;
+}
+.btn2 span i:hover{
+   transform: translateY(-5px);
+}
+
+@media(max-width:945px){
+   header{
+       padding: 20px 3%;
+       transition: .3s;
+   }
+}
+@media(max-width:1140px){
+   .home{
+       grid-template-columns: 1fr;
+       height: 100%;
+
+   }
+}
+body{
+   background-image: url("file:///C:/Users/user/Desktop/New%20folder/bfbplace.jpg");
+}
+nav {
+   background-color: #333;
+   color: white;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   text-align: left;
+ }
+ 
+ nav li {
+   float: left;
+   text-align: left;
+ }
+ 
+ nav a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ nav a:hover {
+   background-color: #111;
+ }
+
+h1 {
+ text-align: center;
+}
+
+h2 {
+ font-size: 1.5em;
+ margin-top: 20px;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+li {
+ margin-bottom: 10px;
+}
+
+section {
+ border-bottom: 1px solid #ccc;
+ padding-bottom: 20px;
+}
+body{
+ background: whitesmoke;
+ font-size: 14px;
+ font-family: 'Poppins', sans-serif;
+}
+.container{
+   width: 80%;
+   margin: 85px auto;
+}
+.contact-box{
+   background: #fff;
+   display: flex;
+}
+.contact-left{
+   flex-basis: 60%;
+   padding: 40px 60px;
+}
+.contact-right{
+   flex-basis: 40%;
+   padding: 40px;
+   background: #f7ae10;
+}
+h1{
+   margin-bottom: 10px;
+}
+.container p{
+   margin-bottom: 40px;
+}
+
+.input-row{
+   display: ;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+textarea{
+   width: 100%;
+   border: 1px solid #ccc;
+   outline: none;
+   padding: 10px;
+   box-sizing: border-box;
+}
+label{
+   margin-bottom: 6px;
+   display: block;
+   color:#f7ae10;
+}
+button{
+   background: #f7ae10;
+   width: 100px;
+   border: none;
+   outline: none;
+   border-radius: 30px;
+   margin-top: 20px;
+   box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-left h3{
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+.contact-right h3{
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+tr td:first-child{
+   padding-right: 20px;
+}
+tr td{
+   padding-top: 20px;
+}
